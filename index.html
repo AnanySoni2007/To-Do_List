@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Today — Todo List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ 
+  <div class="todo-wrap">
+ 
+    <div class="todo-header">
+      <h1>Today</h1>
+      <span class="todo-count" id="count-badge">0 left</span>
+    </div>
+ 
+    <div class="todo-input-row">
+      <input type="text" id="new-task" placeholder="add a new task…" maxlength="120" />
+      <button class="add-btn" id="add-btn">+</button>
+    </div>
+ 
+    <p class="section-label">tasks</p>
+    <ul class="todo-list" id="todo-list"></ul>
+ 
+    <div class="progress-row">
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill" id="progress-fill" style="width:0%"></div>
+      </div>
+      <span class="progress-label" id="progress-label">0%</span>
+    </div>
+ 
+  </div>
+ 
+  <script src="script.js"></script>
+ 
+</body>
+</html>
+ 
+ 
