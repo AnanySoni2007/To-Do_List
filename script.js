@@ -5,6 +5,7 @@ function addTask() {
 
   // Don't add if the input is empty
   if (text == '') {
+    alert("Task field cannot be empty!");
     return;
   }
 
